@@ -1,3 +1,5 @@
+// Some random package doc that isn't in the right form.
+// MATCH /package comment should.*form.*"Package testdata .*"/
 package main
 
 import "fmt"
@@ -21,6 +23,8 @@ func main() {
 
 	s := square{2}
 	printArea(s)
+
+	fmt.Println(fmt.Sprintf("Testing unneeded Sprintf for staticcheck test"))
 }
 
 func printArea(s shape) {
