@@ -23,8 +23,6 @@ func main() {
 
 	s := square{2}
 	printArea(s)
-
-	fmt.Println(fmt.Sprintf("Testing Sprintf for staticcheck test"))
 }
 
 func printArea(s shape) {
