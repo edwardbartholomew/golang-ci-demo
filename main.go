@@ -26,7 +26,7 @@ func main() {
 }
 
 func printArea(s shape) {
-	fmt.Println("Area: ", s.getArea())
+	fmt.Println("Area is: ", s.getArea())
 }
 
 func (t triangle) getArea() float64 {
